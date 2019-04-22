@@ -29,7 +29,7 @@ function createGraph(data) {
         console.log(mem);
 
         var chart = c3.generate({
-                bindto: '#chart',
+                bindto: '#chartmem',
             data: {
                 columns: [
                         mem
