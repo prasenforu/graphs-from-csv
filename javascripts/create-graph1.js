@@ -34,7 +34,8 @@ function createGraph(data) {
                 columns: [
                         mem
                 ],
-                type: 'bar'
+                type: 'bar',
+                labels: false
             },
             axis: {
                 x: {
@@ -52,7 +53,7 @@ function createGraph(data) {
                 enabled: true
         },
             legend: {
-                position: 'right'
+                show: false
             }
         });
 }
