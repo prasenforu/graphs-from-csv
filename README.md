@@ -21,4 +21,15 @@ cd graphs-from-csv/
 python -m SimpleHTTPServer
 ```
 
-Visit http://localhost:8000 to see the website.
+Visit http://localhost:7000 to see the website.
+
+### Docker build
+
+```docker build -t csv2graph:1.0 .```
+
+### Docker run
+
+```docker run -p 7000:7000 -d csv2graph:1.0```
+
+
+
